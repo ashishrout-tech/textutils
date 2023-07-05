@@ -3,36 +3,36 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import About from './components/About';
-import TextForm from './components/TextForm';
-import Alert from './components/Alert';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+// import About from './components/About';
+// import TextForm from './components/TextForm';
+// import Alert from './components/Alert';
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+// } from "react-router-dom";
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-    children: [
-      {
-        path: "/about",
-        element: <About/>,
-      },
-      // {
-      //   path: "/text",
-      //   element: <TextForm showAlert = {showAlert} heading = "Enter something to analyze" mode = {mode}/> 
-      // },
-    ],
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App/>,
+//     children: [
+//       {
+//         path: "/about",
+//         element: <About/>,
+//       },
+//       // {
+//       //   path: "/text",
+//       //   element: <TextForm showAlert = {showAlert} heading = "Enter something to analyze" mode = {mode}/> 
+//       // },
+//     ],
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <App/>
   </React.StrictMode>
 );
 

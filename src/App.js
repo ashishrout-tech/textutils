@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, {useState} from 'react'
 import Alert from './components/Alert';
-import {Outlet, Link} from "react-router-dom";
+// import {Outlet, Link} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -77,10 +77,10 @@ function App() {
     <Alert alert={alert}/>
     <div className="container my-3"> 
        <TextForm showAlert = {showAlert} heading = "Enter something to analyze" mode = {mode}/> 
-       {/* <About/> */}
-       <div id="detail">
+       <About mode = {mode}/>
+       {/* <div id="detail">
         <Outlet/>
-       </div>
+       </div> */}
      </div>
     </>
   );

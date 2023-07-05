@@ -1,0 +1,69 @@
+/* btn-1 */
+/* light */
+.btn-1-light{
+    color: #172a21;
+    background-color: #f8f9fa;
+    border: 2px #172a21 solid;
+}
+.btn-1-light:hover{
+    background-color: #172a21;
+    color: #fff;
+    transition: background-color 0.5 ease;
+}
+/* dark */
+.btn-1-dark{
+    background-color: #172a21;
+    color: #fff;
+    border: 2px #fff solid;
+}
+.btn-1-dark:hover{
+    color: #172a21;
+    background-color: #f8f9fa;
+    transition: background-color 0.5 ease;
+}
+/* btn-2 */
+/* light */
+.btn-2-light{
+    color: #2b1e56;
+    background-color: #f8f9fa;
+    border: 2px #2b1e56 solid;
+}
+.btn-2-light:hover{
+    background-color: #2b1e56;
+    color: #fff;
+    transition: background-color 0.5 ease;
+}
+/* dark */
+.btn-2-dark{
+    background-color: #2b1e56;
+    color: #fff;
+    border: 2px #fff solid;
+}
+.btn-2-dark:hover{
+    color: #2b1e56;
+    background-color: #f8f9fa;
+    transition: background-color 0.5 ease;
+}
+/* btn-3 */
+/* light */
+.btn-3-light{
+    color: #273f2f;
+    background-color: #f8f9fa;
+    border: 2px #273f2f solid;
+}
+.btn-3-light:hover{
+    background-color: #273f2f;
+    color: #fff;
+    transition: background-color 0.5 ease;
+}
+/* dark */
+.btn-3-dark{
+    background-color: #273f2f;
+    color: #fff;
+    border: 2px #fff solid;
+}
+.btn-3-dark:hover{
+    color: #273f2f;
+    background-color: #f8f9fa;
+    transition: background-color 0.5 ease;
+}
